@@ -1,14 +1,8 @@
-"use strict";
-// const height = document.querySelector("#height");
-// const weight = document.querySelector("#weight");
-// const bmiTriangle = document.querySelector("#bmi-tri");
-
-
-// console.log(bmiTri.style.left  )
-
 const height = document.querySelector("#height");
 const weight = document.querySelector("#weight");
 const bmiTriangle = document.querySelector(".bmi-tri");
+
+"use strict";
 
 weight.addEventListener("input", () => {
   let bmi = weight.value / (height.value / 100) ** 2;
