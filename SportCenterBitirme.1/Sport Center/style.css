@@ -155,7 +155,7 @@ html {
 }
 
 .btn-sign-up:hover {
-  background-color: #35569289;
+  background-color: var(--btn-join-color);
 }
 
 .btn-details {
@@ -168,7 +168,7 @@ html {
 }
 
 .btn-details:hover {
-  background-color: black;
+  background-color: var(--btn-join-color);
 }
 
 .home-boxes {
